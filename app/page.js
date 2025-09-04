@@ -14,7 +14,7 @@ const Home = () => {
         method: "GET",
         headers: {
           "X-RapidAPI-Key":
-            "9c3a7a1828msh64e0c3c715061ffp1ae97ajsnb2912fcb2d44",
+            "6431c46bc1mshf2301658b85b8cep164e59jsn8dfc01ad56bb",
           "X-RapidAPI-Host": "real-time-amazon-data.p.rapidapi.com",
         },
       }
