@@ -9,7 +9,7 @@ const Home = () => {
   const getData = async (latestCurrentPage) => {
     setLoading(true);
     const request = await fetch(
-      `https://real-time-amazon-data.p.rapidapi.com/products-by-category?category_id=281407&page=${latestCurrentPage}&country=US&sort_by=RELEVANCE&product_condition=ALL&is_prime=false&deals_and_discounts=NONE`,
+      `https://real-time-amazon-data.p.rapidapi.com/products-by-category?category_id=281407&page=${latestCurrentPage}&country=IN&sort_by=RELEVANCE&product_condition=ALL&is_prime=false&deals_and_discounts=NONE`,
       {
         method: "GET",
         headers: {
